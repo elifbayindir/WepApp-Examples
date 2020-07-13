@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <?!= include("page-css"); ?>
+  </head>
+  <body>
+  
+  <div class="container">
+  
+    <div class="row"> 
+      <div class="input-field col s6"> 
+        <h1>Welcome!</h1>
+        <a href="<?= ScriptApp.getService().getUrl(); ?>?v=form" id="btn" class="waves-effect waves-light btn-small indigo darken-3"><i class="material-icons left">chevron_right</i>Add Record</a>
+        <a href="<?= ScriptApp.getService().getUrl(); ?>?v=table" id="btn" class="waves-effect waves-light btn-small indigo darken-3"><i class="material-icons left">chevron_right</i>Show Table</a>
+
+      </div>
+     </div> <!-- Close row -->
+    
+  </div> <!-- Close container -->
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+  </body>
+
+</html>
+
+
